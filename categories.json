@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Бизнес и карьера",
+    "slug": "business-career",
+    "subcategories": [
+      { "id": 1,  "categoryId": 1, "name": "Управление командой",    "slug": "team-management" },
+      { "id": 2,  "categoryId": 1, "name": "Маркетинг и реклама",    "slug": "marketing-advertising" },
+      { "id": 3,  "categoryId": 1, "name": "Продажи и переговоры",   "slug": "sales-negotiation" },
+      { "id": 4,  "categoryId": 1, "name": "Личный бренд",           "slug": "personal-brand" },
+      { "id": 5,  "categoryId": 1, "name": "Резюме и собеседование", "slug": "resume-interview" },
+      { "id": 6,  "categoryId": 1, "name": "Тайм-менеджмент",        "slug": "time-management" },
+      { "id": 7,  "categoryId": 1, "name": "Проектное управление",   "slug": "project-management" },
+      { "id": 8,  "categoryId": 1, "name": "Предпринимательство",    "slug": "entrepreneurship" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Иностранные языки",
+    "slug": "languages",
+    "subcategories": [
+      { "id": 9,  "categoryId": 2, "name": "Английский",                            "slug": "english" },
+      { "id": 10, "categoryId": 2, "name": "Французский",                           "slug": "french" },
+      { "id": 11, "categoryId": 2, "name": "Испанский",                             "slug": "spanish" },
+      { "id": 12, "categoryId": 2, "name": "Немецкий",                              "slug": "german" },
+      { "id": 13, "categoryId": 2, "name": "Китайский",                             "slug": "chinese" },
+      { "id": 14, "categoryId": 2, "name": "Японский",                              "slug": "japanese" },
+      { "id": 15, "categoryId": 2, "name": "Подготовка к экзаменам (IELTS, TOEFL)", "slug": "exam-prep-ielts-toefl" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Дом и уют",
+    "slug": "home-comfort",
+    "subcategories": [
+      { "id": 16, "categoryId": 3, "name": "Уборка и организация", "slug": "cleaning-organizing" },
+      { "id": 17, "categoryId": 3, "name": "Домашние финансы",     "slug": "home-finance" },
+      { "id": 18, "categoryId": 3, "name": "Приготовление еды",    "slug": "cooking" },
+      { "id": 19, "categoryId": 3, "name": "Домашние растения",    "slug": "houseplants" },
+      { "id": 20, "categoryId": 3, "name": "Ремонт",               "slug": "repair" },
+      { "id": 21, "categoryId": 3, "name": "Хранение вещей",       "slug": "storage" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Творчество и искусство",
+    "slug": "arts-creativity",
+    "subcategories": [
+      { "id": 22, "categoryId": 4, "name": "Рисование и иллюстрация", "slug": "drawing-illustration" },
+      { "id": 23, "categoryId": 4, "name": "Фотография",              "slug": "photography" },
+      { "id": 24, "categoryId": 4, "name": "Видеомонтаж",             "slug": "video-editing" },
+      { "id": 25, "categoryId": 4, "name": "Музыка и звук",           "slug": "music-sound" },
+      { "id": 26, "categoryId": 4, "name": "Актёрское мастерство",    "slug": "acting" },
+      { "id": 27, "categoryId": 4, "name": "Креативное письмо",       "slug": "creative-writing" },
+      { "id": 28, "categoryId": 4, "name": "Арт-терапия",             "slug": "art-therapy" },
+      { "id": 29, "categoryId": 4, "name": "Декор и DIY",             "slug": "decor-diy" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Образование и развитие",
+    "slug": "education-development",
+    "subcategories": [
+      { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" },
+      { "id": 31, "categoryId": 5, "name": "Навыки обучения",     "slug": "learning-skills" },
+      { "id": 32, "categoryId": 5, "name": "Когнитивные техники", "slug": "cognitive-techniques" },
+      { "id": 33, "categoryId": 5, "name": "Скорочтение",         "slug": "speed-reading" },
+      { "id": 34, "categoryId": 5, "name": "Навыки преподавания", "slug": "teaching-skills" },
+      { "id": 35, "categoryId": 5, "name": "Коучинг",             "slug": "coaching" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Здоровье и лайфстайл",
+    "slug": "health-lifestyle",
+    "subcategories": [
+      { "id": 36, "categoryId": 6, "name": "Йога и медитация",      "slug": "yoga-meditation" },
+      { "id": 37, "categoryId": 6, "name": "Питание и ЗОЖ",         "slug": "nutrition-healthy-lifestyle" },
+      { "id": 38, "categoryId": 6, "name": "Ментальное здоровье",   "slug": "mental-health" },
+      { "id": 39, "categoryId": 6, "name": "Осознанность",          "slug": "mindfulness" },
+      { "id": 40, "categoryId": 6, "name": "Физические тренировки", "slug": "fitness-training" },
+      { "id": 41, "categoryId": 6, "name": "Сон и восстановление",  "slug": "sleep-recovery" },
+      { "id": 42, "categoryId": 6, "name": "Баланс жизни и работы", "slug": "work-life-balance" }
+    ]
+  }
+]
+

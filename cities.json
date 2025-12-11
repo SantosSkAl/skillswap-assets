@@ -1,0 +1,22 @@
+[
+  { "id": 1,  "slug": "moscow",           "name": "Москва" },
+  { "id": 2,  "slug": "saint-petersburg", "name": "Санкт-Петербург" },
+  { "id": 3,  "slug": "novosibirsk",      "name": "Новосибирск" },
+  { "id": 4,  "slug": "yekaterinburg",    "name": "Екатеринбург" },
+  { "id": 5,  "slug": "kazan",            "name": "Казань" },
+  { "id": 6,  "slug": "nizhny-novgorod",  "name": "Нижний Новгород" },
+  { "id": 7,  "slug": "chelyabinsk",      "name": "Челябинск" },
+  { "id": 8,  "slug": "samara",           "name": "Самара" },
+  { "id": 9,  "slug": "omsk",             "name": "Омск" },
+  { "id": 10, "slug": "rostov-on-don",    "name": "Ростов-на-Дону" },
+  { "id": 11, "slug": "ufa",              "name": "Уфа" },
+  { "id": 12, "slug": "krasnoyarsk",      "name": "Красноярск" },
+  { "id": 13, "slug": "voronezh",         "name": "Воронеж" },
+  { "id": 14, "slug": "perm",             "name": "Пермь" },
+  { "id": 15, "slug": "volgograd",        "name": "Волгоград" },
+  { "id": 16, "slug": "krasnodar",        "name": "Краснодар" },
+  { "id": 17, "slug": "saratov",          "name": "Саратов" },
+  { "id": 18, "slug": "tyumen",           "name": "Тюмень" },
+  { "id": 19, "slug": "tolyatti",         "name": "Тольятти" },
+  { "id": 20, "slug": "izhevsk",          "name": "Ижевск" }
+]

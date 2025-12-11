@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Игра на барабанах",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 25, "categoryId": 4, "name": "Музыка и звук", "slug": "music-sound" },
+    "description": "Привет! Я играю на барабанах уже больше 10 лет — от репетиций в гараже до выступлений на сцене с живыми группами. Научу основам техники (и как не отбить себе пальцы), играть любимые ритмы и разбирать песни, импровизировать и звучать уверенно даже без паритуры",
+    "favoritesCount": 12,
+    "isFavorited": false,
+    "images": [
+      "/media/skills/skill-001.jpg",
+      "/media/skills/skill-002.jpg",
+      "/media/skills/skill-003.jpg",
+      "/media/skills/skill-003.jpg"
+    ],
+    "author": {
+      "id": 5,
+      "name": "Иван",
+      "avatar": "/media/avatars/avatar-001.jpg",
+      "birthDate": "2001-01-01",
+      "gender": "мужской",
+      "bio": "Привет! Люблю ритм, кофе по утрам и людей, которые не боятся пробовать новое.",
+      "city": { "id": 2,  "slug": "saint-petersburg", "name": "Санкт-Петербург" },
+      "learnSubcategories": [
+        { "id": 20, "categoryId": 3, "name": "Ремонт", "slug": "repair" },
+        { "id": 14, "categoryId": 2, "name": "Японский", "slug": "japanese" }
+      ]
+    }
+  }
+]
