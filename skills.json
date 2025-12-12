@@ -8,22 +8,1277 @@
     "favoritesCount": 12,
     "isFavorited": false,
     "images": [
-      "/media/skills/skill-001.jpg",
-      "/media/skills/skill-002.jpg",
-      "/media/skills/skill-003.jpg",
-      "/media/skills/skill-003.jpg"
+      "skills/skill-001.jpg",
+      "skills/skill-002.jpg",
+      "skills/skill-003.jpg",
+      "skills/skill-003.jpg"
     ],
     "author": {
       "id": 5,
       "name": "Иван",
-      "avatar": "/media/avatars/avatar-001.jpg",
-      "birthDate": "2001-01-01",
+      "avatar": "avatars/avatar-001.jpg",
+      "birthDate": "01-01-2001",
       "gender": "мужской",
       "bio": "Привет! Люблю ритм, кофе по утрам и людей, которые не боятся пробовать новое.",
       "city": { "id": 2,  "slug": "saint-petersburg", "name": "Санкт-Петербург" },
       "learnSubcategories": [
         { "id": 20, "categoryId": 3, "name": "Ремонт", "slug": "repair" },
         { "id": 14, "categoryId": 2, "name": "Японский", "slug": "japanese" }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Разговорный английский для путешествий",
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "subcategory": { "id": 9, "categoryId": 2, "name": "Английский", "slug": "english" },
+    "description": "Помогу снять языковой барьер и начать свободно говорить в поездках: аэропорт, отель, кафе, small talk. Много практики, минимум грамматики.",
+    "favoritesCount": 25,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-005.png",
+      "skills/skill-006.png"
+    ],
+    "author": {
+      "id": 6,
+      "name": "Анна",
+      "avatar": "avatars/avatar-002.jpg",
+      "birthDate": "15-03-1999",
+      "gender": "женский",
+      "bio": "Преподаю английский уже 6 лет, обожаю живые разговоры и уютные языковые встречи.",
+      "city": { "id": 5, "slug": "kazan", "name": "Казань" },
+      "learnSubcategories": [
+        { "id": 6, "categoryId": 1, "name": "Тайм-менеджмент", "slug": "time-management" },
+        { "id": 36, "categoryId": 6, "name": "Йога и медитация", "slug": "yoga-meditation" },
+        { "id": 39, "categoryId": 6, "name": "Осознанность", "slug": "mindfulness" }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "Бизнес-план для первого проекта",
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "subcategory": { "id": 8, "categoryId": 1, "name": "Предпринимательство", "slug": "entrepreneurship" },
+    "description": "Разберём вашу идею и вместе составим понятный бизнес-план: целевая аудитория, финансовая модель, риски и первые шаги.",
+    "favoritesCount": 18,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-007.png",
+      "skills/skill-008.png"
+    ],
+    "author": {
+      "id": 7,
+      "name": "Максим",
+      "avatar": "avatars/avatar-003.jpg",
+      "birthDate": "22-07-2001",
+      "gender": "мужской",
+      "bio": "Предприниматель, запускал несколько небольших проектов в сфере услуг и образования.",
+      "city": { "id": 1, "slug": "moscow", "name": "Москва" },
+      "learnSubcategories": [
+        { "id": 6, "categoryId": 1, "name": "Тайм-менеджмент", "slug": "time-management" },
+        { "id": 37, "categoryId": 6, "name": "Питание и ЗОЖ", "slug": "nutrition-healthy-lifestyle" }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Английский для собеседований",
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "subcategory": { "id": 9, "categoryId": 2, "name": "Английский", "slug": "english" },
+    "description": "Подготовлю к собеседованиям на английском: пройдём типовые вопросы, расскажем о вашем опыте и отрепетируем ответы.",
+    "favoritesCount": 9,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-009.png",
+      "skills/skill-010.png"
+    ],
+    "author": {
+      "id": 8,
+      "name": "Илона",
+      "avatar": "avatars/avatar-004.jpg",
+      "birthDate": "10-09-1991",
+      "gender": "женский",
+      "bio": "HR-менеджер с опытом международных собеседований, люблю помогать людям находить работу мечты.",
+      "city": { "id": 4, "slug": "yekaterinburg", "name": "Екатеринбург" },
+      "learnSubcategories": [
+        { "id": 6, "categoryId": 1, "name": "Тайм-менеджмент", "slug": "time-management" },
+        { "id": 38, "categoryId": 6, "name": "Ментальное здоровье", "slug": "mental-health" }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": "Английский для начинающих с нуля",
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "subcategory": { "id": 9, "categoryId": 2, "name": "Английский", "slug": "english" },
+    "description": "Если вы всегда откладывали английский «на потом», начнём с алфавита и простых фраз и постепенно перейдём к уверенным диалогам.",
+    "favoritesCount": 7,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-011.png"
+    ],
+    "author": {
+      "id": 9,
+      "name": "Михаил",
+      "avatar": "avatars/avatar-005.jpg",
+      "birthDate": "05-02-1996",
+      "gender": "мужской",
+      "bio": "Объясняю сложные вещи простым языком, люблю структурировать материал и давать много практики.",
+      "city": { "id": 9, "slug": "omsk", "name": "Омск" },
+      "learnSubcategories": [
+        { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" },
+        { "id": 39, "categoryId": 6, "name": "Осознанность", "slug": "mindfulness" }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": "Английский для путешествий и блога",
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "subcategory": { "id": 9, "categoryId": 2, "name": "Английский", "slug": "english" },
+    "description": "Научу уверенно общаться в поездках и писать простые посты в блог на английском — без зазубривания правил.",
+    "favoritesCount": 11,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-012.png",
+      "skills/skill-013.png"
+    ],
+    "author": {
+      "id": 10,
+      "name": "Мария",
+      "avatar": "avatars/avatar-006.jpg",
+      "birthDate": "18-11-2003",
+      "gender": "женский",
+      "bio": "Путешествую, веду блог и обожаю делиться лайфхаками по языку и саморазвитию.",
+      "city": { "id": 16, "slug": "krasnodar", "name": "Краснодар" },
+      "learnSubcategories": [
+        { "id": 6, "categoryId": 1, "name": "Тайм-менеджмент", "slug": "time-management" },
+        { "id": 36, "categoryId": 6, "name": "Йога и медитация", "slug": "yoga-meditation" }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "title": "Домашняя выпечка без сложных рецептов",
+    "category": { "id": 3, "name": "Дом и уют", "slug": "home-comfort" },
+    "subcategory": { "id": 18, "categoryId": 3, "name": "Приготовление еды", "slug": "cooking" },
+    "description": "Покажу, как готовить вкусную домашнюю выпечку без редких ингредиентов и сложных техник. Пироги, печенье, булочки — всё получится.",
+    "favoritesCount": 20,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-014.png",
+      "skills/skill-015.png"
+    ],
+    "author": {
+      "id": 11,
+      "name": "Екатерина",
+      "avatar": "avatars/avatar-007.jpg",
+      "birthDate": "09-06-1988",
+      "gender": "женский",
+      "bio": "Домашний кондитер, люблю уютные вечера с чаем и свежей выпечкой.",
+      "city": { "id": 3, "slug": "novosibirsk", "name": "Новосибирск" },
+      "learnSubcategories": [
+        { "id": 17, "categoryId": 3, "name": "Домашние финансы", "slug": "home-finance" },
+        { "id": 41, "categoryId": 6, "name": "Сон и восстановление", "slug": "sleep-recovery" }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "title": "Фотография на смартфон",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 23, "categoryId": 4, "name": "Фотография", "slug": "photography" },
+    "description": "Научу видеть кадр, работать со светом и композицией, чтобы ваши фото на телефон выглядели как из журнала.",
+    "favoritesCount": 32,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-016.png",
+      "skills/skill-017.png",
+      "skills/skill-018.png"
+    ],
+    "author": {
+      "id": 12,
+      "name": "Сергей",
+      "avatar": "avatars/avatar-008.jpg",
+      "birthDate": "27-04-1990",
+      "gender": "мужской",
+      "bio": "Фотограф-самоучка, снимаю город и людей, обожаю живые эмоции в кадре.",
+      "city": { "id": 10, "slug": "rostov-on-don", "name": "Ростов-на-Дону" },
+      "learnSubcategories": [
+        { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" },
+        { "id": 32, "categoryId": 5, "name": "Когнитивные техники", "slug": "cognitive-techniques" }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "title": "Основы йоги для офиса",
+    "category": { "id": 6, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "subcategory": { "id": 36, "categoryId": 6, "name": "Йога и медитация", "slug": "yoga-meditation" },
+    "description": "Покажу простые упражнения и короткие практики, которые помогут снять напряжение после рабочего дня и почувствовать тело.",
+    "favoritesCount": 14,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-019.png",
+      "skills/skill-020.png"
+    ],
+    "author": {
+      "id": 13,
+      "name": "Лена",
+      "avatar": "avatars/avatar-009.jpg",
+      "birthDate": "03-12-1992",
+      "gender": "женский",
+      "bio": "Инструктор по йоге, помогаю людям находить баланс между делами и отдыхом.",
+      "city": { "id": 11, "slug": "ufa", "name": "Уфа" },
+      "learnSubcategories": [
+        { "id": 6, "categoryId": 1, "name": "Тайм-менеджмент", "slug": "time-management" },
+        { "id": 34, "categoryId": 5, "name": "Навыки преподавания", "slug": "teaching-skills" }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "title": "Организация дома по методу «меньше — лучше»",
+    "category": { "id": 3, "name": "Дом и уют", "slug": "home-comfort" },
+    "subcategory": { "id": 16, "categoryId": 3, "name": "Уборка и организация", "slug": "cleaning-organizing" },
+    "description": "Помогу разобрать завалы вещей, организовать хранение и создать дома пространство, в котором легко дышится.",
+    "favoritesCount": 21,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-021.png",
+      "skills/skill-022.png"
+    ],
+    "author": {
+      "id": 14,
+      "name": "Ольга",
+      "avatar": "avatars/avatar-010.jpg",
+      "birthDate": "14-08-1987",
+      "gender": "женский",
+      "bio": "Консультант по организации пространства, фанат минимализма и разумного расходования ресурсов.",
+      "city": { "id": 15, "slug": "volgograd", "name": "Волгоград" },
+      "learnSubcategories": [
+        { "id": 17, "categoryId": 3, "name": "Домашние финансы", "slug": "home-finance" },
+        { "id": 41, "categoryId": 6, "name": "Сон и восстановление", "slug": "sleep-recovery" }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "title": "Управление командой для начинающих лидеров",
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "subcategory": { "id": 1, "categoryId": 1, "name": "Управление командой", "slug": "team-management" },
+    "description": "Разберём базовые подходы к управлению людьми: постановка задач, обратная связь, мотивация и работа с конфликтами. Подойдёт тем, кто впервые стал тимлидом или руководителем проекта.",
+    "favoritesCount": 16,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-023.png",
+      "skills/skill-024.png"
+    ],
+    "author": {
+      "id": 15,
+      "name": "Дмитрий",
+      "avatar": "avatars/avatar-011.jpg",
+      "birthDate": "02-05-1989",
+      "gender": "мужской",
+      "bio": "10 лет в управлении командами разработки. Люблю, когда процессы прозрачны, а люди понимают, зачем они делают свою работу.",
+      "city": { "id": 6, "slug": "nizhny-novgorod", "name": "Нижний Новгород" },
+      "learnSubcategories": [
+        { "id": 32, "categoryId": 5, "name": "Когнитивные техники", "slug": "cognitive-techniques" },
+        { "id": 41, "categoryId": 6, "name": "Сон и восстановление", "slug": "sleep-recovery" }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "title": "Маркетинг для личного бренда",
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "subcategory": { "id": 4, "categoryId": 1, "name": "Личный бренд", "slug": "personal-brand" },
+    "description": "Помогу сформулировать вашу экспертность, оформить соцсети и выстроить понятную стратегию продвижения личного бренда без выгорания.",
+    "favoritesCount": 19,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-025.png",
+      "skills/skill-026.png"
+    ],
+    "author": {
+      "id": 16,
+      "name": "Кира",
+      "avatar": "avatars/avatar-012.jpg",
+      "birthDate": "11-01-1994",
+      "gender": "женский",
+      "bio": "Маркетолог и продюсер экспертов. Обожаю находить сильные стороны людей и помогать им заявлять о себе миру.",
+      "city": { "id": 7, "slug": "chelyabinsk", "name": "Челябинск" },
+      "learnSubcategories": [
+        { "id": 23, "categoryId": 4, "name": "Фотография", "slug": "photography" },
+        { "id": 27, "categoryId": 4, "name": "Креативное письмо", "slug": "creative-writing" }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "title": "Рисование для тех, кто \"не умеет\"",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 22, "categoryId": 4, "name": "Рисование и иллюстрация", "slug": "drawing-illustration" },
+    "description": "Покажу простые техники, с которых можно начать рисовать даже без опыта. Разберёмся с линией, тоном и цветом, попробуем скетчи и небольшие иллюстрации.",
+    "favoritesCount": 27,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-027.png",
+      "skills/skill-028.png",
+      "skills/skill-029.png"
+    ],
+    "author": {
+      "id": 17,
+      "name": "Алёна",
+      "avatar": "avatars/avatar-013.jpg",
+      "birthDate": "29-09-1995",
+      "gender": "женский",
+      "bio": "Иллюстратор и человек, который когда-то тоже думал, что не умеет рисовать. Люблю создавать безопасное пространство для творчества.",
+      "city": { "id": 12, "slug": "krasnoyarsk", "name": "Красноярск" },
+      "learnSubcategories": [
+        { "id": 39, "categoryId": 6, "name": "Осознанность", "slug": "mindfulness" },
+        { "id": 28, "categoryId": 4, "name": "Арт-терапия", "slug": "art-therapy" }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "title": "Подготовка к IELTS: говорение и письмо",
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "subcategory": { "id": 15, "categoryId": 2, "name": "Подготовка к экзаменам (IELTS, TOEFL)", "slug": "exam-prep-ielts-toefl" },
+    "description": "Разберём формат IELTS, отработаем Part 2 и 3 в Speaking, а также эссе для Writing. Дам шаблоны и обратную связь по вашим ответам.",
+    "favoritesCount": 22,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-030.png",
+      "skills/skill-031.png"
+    ],
+    "author": {
+      "id": 18,
+      "name": "Роман",
+      "avatar": "avatars/avatar-014.jpg",
+      "birthDate": "07-04-1993",
+      "gender": "мужской",
+      "bio": "Сдавал IELTS на высокий балл, несколько лет готовлю студентов к экзаменам и помогаю справляться со страхом перед тестом.",
+      "city": { "id": 1, "slug": "moscow", "name": "Москва" },
+      "learnSubcategories": [
+        { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" },
+        { "id": 31, "categoryId": 5, "name": "Навыки обучения", "slug": "learning-skills" }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "title": "Домашние финансы без боли",
+    "category": { "id": 3, "name": "Дом и уют", "slug": "home-comfort" },
+    "subcategory": { "id": 17, "categoryId": 3, "name": "Домашние финансы", "slug": "home-finance" },
+    "description": "Научимся вести учёт доходов и расходов, планировать бюджет, создавать «подушки безопасности» и копить на цели, не лишая себя радостей.",
+    "favoritesCount": 13,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-032.png",
+      "skills/skill-033.png"
+    ],
+    "author": {
+      "id": 19,
+      "name": "Светлана",
+      "avatar": "avatars/avatar-015.jpg",
+      "birthDate": "21-10-1986",
+      "gender": "женский",
+      "bio": "Финансовый коуч для обычных людей. Верю, что с деньгами можно подружиться без сложной терминологии.",
+      "city": { "id": 13, "slug": "voronezh", "name": "Воронеж" },
+      "learnSubcategories": [
+        { "id": 41, "categoryId": 6, "name": "Сон и восстановление", "slug": "sleep-recovery" },
+        { "id": 42, "categoryId": 6, "name": "Баланс жизни и работы", "slug": "work-life-balance" }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "title": "Скорочтение и работа с текстом",
+    "category": { "id": 5, "name": "Образование и развитие", "slug": "education-development" },
+    "subcategory": { "id": 33, "categoryId": 5, "name": "Скорочтение", "slug": "speed-reading" },
+    "description": "Покажу техники скорочтения и приёмы, которые помогают лучше запоминать прочитанное, а не просто «проглатывать» книги.",
+    "favoritesCount": 17,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-034.png",
+      "skills/skill-035.png"
+    ],
+    "author": {
+      "id": 20,
+      "name": "Артём",
+      "avatar": "avatars/avatar-016.jpg",
+      "birthDate": "30-01-1992",
+      "gender": "мужской",
+      "bio": "Фанат нон-фикшн и эффективного обучения. Люблю искать способы учиться быстрее и легче.",
+      "city": { "id": 8, "slug": "samara", "name": "Самара" },
+      "learnSubcategories": [
+        { "id": 32, "categoryId": 5, "name": "Когнитивные техники", "slug": "cognitive-techniques" },
+        { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "title": "Осознанная медитация для начинающих",
+    "category": { "id": 6, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "subcategory": { "id": 39, "categoryId": 6, "name": "Осознанность", "slug": "mindfulness" },
+    "description": "Поговорим о том, что такое медитация без мистики, попробуем короткие практики на дыхание и наблюдение, разберёмся, как встроить их в повседневную жизнь.",
+    "favoritesCount": 24,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-036.png",
+      "skills/skill-037.png"
+    ],
+    "author": {
+      "id": 21,
+      "name": "Наталья",
+      "avatar": "avatars/avatar-017.jpg",
+      "birthDate": "06-06-1985",
+      "gender": "женский",
+      "bio": "Практикую медитацию больше 7 лет, проходила обучение у разных преподавателей и собираю работающие техники.",
+      "city": { "id": 11, "slug": "ufa", "name": "Уфа" },
+      "learnSubcategories": [
+        { "id": 36, "categoryId": 6, "name": "Йога и медитация", "slug": "yoga-meditation" },
+        { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "title": "Видео-монтаж для соцсетей",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 24, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" },
+    "description": "Освоим базовый монтаж роликов для Reels, Shorts и сторис: склейки, работа с музыкой, простые переходы и текст.",
+    "favoritesCount": 29,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-038.png",
+      "skills/skill-039.png",
+      "skills/skill-040.png"
+    ],
+    "author": {
+      "id": 22,
+      "name": "Игорь",
+      "avatar": "avatars/avatar-018.jpg",
+      "birthDate": "19-03-1997",
+      "gender": "мужской",
+      "bio": "Снимаю и монтирую ролики для блогеров и небольших брендов. Люблю, когда видео цепляет с первых секунд.",
+      "city": { "id": 16, "slug": "krasnodar", "name": "Краснодар" },
+      "learnSubcategories": [
+        { "id": 27, "categoryId": 4, "name": "Креативное письмо", "slug": "creative-writing" },
+        { "id": 23, "categoryId": 4, "name": "Фотография", "slug": "photography" }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "title": "Актёрское мастерство для уверенности",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 26, "categoryId": 4, "name": "Актёрское мастерство", "slug": "acting" },
+    "description": "Через простые актёрские упражнения поработаем с голосом, пластикой и раскрепощением. Поможет комфортнее чувствовать себя на сцене и в публичных выступлениях.",
+    "favoritesCount": 15,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-041.png",
+      "skills/skill-042.png"
+    ],
+    "author": {
+      "id": 23,
+      "name": "Виктор",
+      "avatar": "avatars/avatar-019.jpg",
+      "birthDate": "24-12-1988",
+      "gender": "мужской",
+      "bio": "Театральный актёр, веду тренинги по публичным выступлениям и уверенности в себе.",
+      "city": { "id": 10, "slug": "rostov-on-don", "name": "Ростов-на-Дону" },
+      "learnSubcategories": [
+        { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" },
+        { "id": 35, "categoryId": 5, "name": "Коучинг", "slug": "coaching" }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "title": "Проектное управление для личных задач",
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "subcategory": { "id": 7, "categoryId": 1, "name": "Проектное управление", "slug": "project-management" },
+    "description": "Покажу, как применять инструменты проектного управления к своим личным и учебным задачам: доски, спринты, приоритизацию и планирование.",
+    "favoritesCount": 10,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-043.png",
+      "skills/skill-044.png"
+    ],
+    "author": {
+      "id": 24,
+      "name": "Егор",
+      "avatar": "avatars/avatar-020.jpg",
+      "birthDate": "08-02-1998",
+      "gender": "мужской",
+      "bio": "PM в IT-проектах, фанат досок задач и понятных процессов. Люблю помогать людям наводить порядок в делах.",
+      "city": { "id": 18, "slug": "tyumen", "name": "Тюмень" },
+      "learnSubcategories": [
+        { "id": 6, "categoryId": 1, "name": "Тайм-менеджмент", "slug": "time-management" },
+        { "id": 37, "categoryId": 6, "name": "Питание и ЗОЖ", "slug": "nutrition-healthy-lifestyle" }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "title": "Разговорный английский для работы",
+    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages" },
+    "subcategory": { "id": 12, "categoryId": 3, "name": "Английский", "slug": "english" },
+    "description": "Помогаю заговорить на английском свободнее. Практикуем реальные рабочие ситуации: созвоны, презентации, small talk, переписку.",
+    "favoritesCount": 18,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-045.png"
+    ],
+    "author": {
+      "id": 25,
+      "name": "Алина",
+      "avatar": "avatars/avatar-021.jpg",
+      "birthDate": "14-05-1996",
+      "gender": "женский",
+      "bio": "Работаю в международной компании, ежедневно общаюсь с командами из США и Европы. Делюсь рабочими лайфхаками языка.",
+      "city": { "id": 12, "slug": "kazan", "name": "Казань" },
+      "learnSubcategories": [
+        { "id": 6, "categoryId": 1, "name": "Тайм-менеджмент", "slug": "time-management" },
+        { "id": 33, "categoryId": 5, "name": "Осознанность", "slug": "mindfulness" },
+        { "id": 16, "categoryId": 3, "name": "Китайский", "slug": "chinese" }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "title": "Основы фотографии на смартфон",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 22, "categoryId": 4, "name": "Фотография", "slug": "photography" },
+    "description": "Научу создавать эстетичные снимки на обычный смартфон. Разберём композицию, свет, ракурсы и быстрый мобильный монтаж.",
+    "favoritesCount": 27,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-046.png",
+      "skills/skill-047.png"
+    ],
+    "author": {
+      "id": 26,
+      "name": "Михаил",
+      "avatar": "avatars/avatar-022.jpg",
+      "birthDate": "04-11-1995",
+      "gender": "мужской",
+      "bio": "Фотограф и контент-мейкер. Помогаю людям увидеть красоту в повседневности.",
+      "city": { "id": 14, "slug": "krasnoyarsk", "name": "Красноярск" },
+      "learnSubcategories": [
+        { "id": 14, "categoryId": 2, "name": "Японский", "slug": "japanese" }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "title": "Постановка целей и планирование недели",
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "subcategory": { "id": 30, "categoryId": 6, "name": "Навыки обучения", "slug": "learning-skills" },
+    "description": "Помогу научиться ставить реалистичные цели, фокусироваться на важном и планировать неделю так, чтобы всё успевать без перегрузов.",
+    "favoritesCount": 9,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-048.png"
+    ],
+    "author": {
+      "id": 27,
+      "name": "Полина",
+      "avatar": "avatars/avatar-023.jpg",
+      "birthDate": "22-08-1999",
+      "gender": "женский",
+      "bio": "Студентам и взрослым помогаю выстраивать привычки, планировать учебу и сохранять мотивацию.",
+      "city": { "id": 5, "slug": "yekaterinburg", "name": "Екатеринбург" },
+      "learnSubcategories": [
+        { "id": 25, "categoryId": 4, "name": "Музыка и звук", "slug": "music-sound" }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "title": "Основы видеомонтажа для соцсетей",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 23, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" },
+    "description": "Научу быстро монтировать ролики под Reels и TikTok: склейки, переходы, звук, цвет и ритм.",
+    "favoritesCount": 15,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-049.png"
+    ],
+    "author": {
+      "id": 28,
+      "name": "Артур",
+      "avatar": "avatars/avatar-024.jpg",
+      "birthDate": "03-03-1997",
+      "gender": "мужской",
+      "bio": "Снимаю и монтирую короткий контент для компаний и блогеров. Учу только практическому.",
+      "city": { "id": 1, "slug": "moscow", "name": "Москва" },
+      "learnSubcategories": [
+        { "id": 9, "categoryId": 1, "name": "Личный бренд", "slug": "personal-brand" }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "title": "Психологическое письмо",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 26, "categoryId": 4, "name": "Креативное письмо", "slug": "creative-writing" },
+    "description": "Через письмо учимся понимать свои чувства, структурировать мысли и выражать себя без страха.",
+    "favoritesCount": 32,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-050.png"
+    ],
+    "author": {
+      "id": 29,
+      "name": "Елена",
+      "avatar": "avatars/avatar-025.jpg",
+      "birthDate": "19-09-1992",
+      "gender": "женский",
+      "bio": "Пишу тексты 10+ лет, веду практики свободного письма для начинающих.",
+      "city": { "id": 6, "slug": "novosibirsk", "name": "Новосибирск" },
+      "learnSubcategories": [
+        { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" },
+        { "id": 33, "categoryId": 5, "name": "Осознанность", "slug": "mindfulness" }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "title": "Базовая йога для снятия стресса",
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "subcategory": { "id": 31, "categoryId": 5, "name": "Йога и медитация", "slug": "yoga-meditation" },
+    "description": "Мягкая йога для укрепления тела и расслабления. Идеально для тех, кто много сидит и хочет вернуть ощущение легкости.",
+    "favoritesCount": 21,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-051.png",
+      "skills/skill-052.png",
+      "skills/skill-053.png"
+    ],
+    "author": {
+      "id": 30,
+      "name": "Лиза",
+      "avatar": "avatars/avatar-026.jpg",
+      "birthDate": "12-12-1990",
+      "gender": "женский",
+      "bio": "Преподаю йогу 6 лет. Люблю бережные практики и осознанное движение.",
+      "city": { "id": 9, "slug": "omsk", "name": "Омск" },
+      "learnSubcategories": [
+        { "id": 18, "categoryId": 3, "name": "Немецкий", "slug": "german" },
+        { "id": 23, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" },
+        { "id": 25, "categoryId": 4, "name": "Музыка и звук", "slug": "music-sound" }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "title": "Финансовая грамотность для новичков",
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "subcategory": { "id": 4, "categoryId": 1, "name": "Финансовая грамотность", "slug": "financial-literacy" },
+    "description": "Разберёмся, как вести бюджет, копить, формировать подушку безопасности и не тонуть в расходах.",
+    "favoritesCount": 30,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-054.png"
+    ],
+    "author": {
+      "id": 31,
+      "name": "Руслан",
+      "avatar": "avatars/avatar-027.jpg",
+      "birthDate": "11-06-1988",
+      "gender": "мужской",
+      "bio": "Помогаю людям выстроить здоровые финансовые привычки без стресса и жёстких ограничений.",
+      "city": { "id": 11, "slug": "ufa", "name": "Уфа" },
+      "learnSubcategories": [
+        { "id": 20, "categoryId": 3, "name": "Испанский", "slug": "spanish" }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "title": "Ремонт техники своими руками",
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "subcategory": { "id": 20, "categoryId": 2, "name": "Ремонт", "slug": "repair" },
+    "description": "Научу диагностировать и чинить бытовую технику: кофемолки, чайники, наушники, мелкие гаджеты.",
+    "favoritesCount": 14,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-055.png",
+      "skills/skill-056.png"
+    ],
+    "author": {
+      "id": 32,
+      "name": "Григорий",
+      "avatar": "avatars/avatar-028.jpg",
+      "birthDate": "02-04-1991",
+      "gender": "мужской",
+      "bio": "Люблю разбирать устройства и понимать, как всё работает. Объясняю простым языком.",
+      "city": { "id": 7, "slug": "chelyabinsk", "name": "Челябинск" },
+      "learnSubcategories": [
+        { "id": 12, "categoryId": 3, "name": "Английский", "slug": "english" },
+        { "id": 25, "categoryId": 4, "name": "Музыка и звук", "slug": "music-sound" }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "title": "Иллюстрация для начинающих",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 21, "categoryId": 4, "name": "Рисование", "slug": "drawing" },
+    "description": "Расскажу основы рисунка: форма, композиция, цвет. Подходит для тех, кто всегда хотел попробовать, но не знал, с чего начать.",
+    "favoritesCount": 35,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-057.png",
+      "skills/skill-058.png"
+    ],
+    "author": {
+      "id": 33,
+      "name": "Дарья",
+      "avatar": "avatars/avatar-029.jpg",
+      "birthDate": "29-07-1997",
+      "gender": "женский",
+      "bio": "Иллюстратор, работаю с брендами и личными проектами. Учу рисовать без страха и перфекционизма.",
+      "city": { "id": 2, "slug": "saint-petersburg", "name": "Санкт-Петербург" },
+      "learnSubcategories": [
+        { "id": 18, "categoryId": 3, "name": "Немецкий", "slug": "german" }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "title": "Готовим блюда за 15 минут",
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "subcategory": { "id": 17, "categoryId": 2, "name": "Приготовление еды", "slug": "cooking" },
+    "description": "Научу готовить быстрые, вкусные и полезные блюда из простых ингредиентов — без хлопот и сложной техники.",
+    "favoritesCount": 40,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-059.png"
+    ],
+    "author": {
+      "id": 34,
+      "name": "Юлия",
+      "avatar": "avatars/avatar-030.jpg",
+      "birthDate": "25-01-1994",
+      "gender": "женский",
+      "bio": "Люблю готовить просто и вкусно. За 5 лет собрала десятки быстрых рецептов, которыми делюсь.",
+      "city": { "id": 10, "slug": "krasnodar", "name": "Краснодар" },
+      "learnSubcategories": [
+        { "id": 31, "categoryId": 5, "name": "Йога и медитация", "slug": "yoga-meditation" },
+        { "id": 22, "categoryId": 4, "name": "Фотография", "slug": "photography" },
+        { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "title": "Китайский язык для начинающих",
+    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages" },
+    "subcategory": { "id": 16, "categoryId": 3, "name": "Китайский", "slug": "chinese" },
+    "description": "Научу базовой фонетике, тонам, простым фразам и бытовому общению. Доступно объясняю логику языка.",
+    "favoritesCount": 17,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-060.png",
+      "skills/skill-061.png",
+      "skills/skill-062.png"
+    ],
+    "author": {
+      "id": 35,
+      "name": "Марина",
+      "avatar": "avatars/avatar-031.jpg",
+      "birthDate": "14-10-1993",
+      "gender": "женский",
+      "bio": "Прожила в Китае 3 года, преподавала язык детям и взрослым. Люблю культурные особенности и историю языка.",
+      "city": { "id": 3, "slug": "novosibirsk", "name": "Новосибирск" },
+      "learnSubcategories": [
+        { "id": 22, "categoryId": 4, "name": "Фотография", "slug": "photography" }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "title": "Эффективное командное общение",
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "subcategory": { "id": 1, "categoryId": 1, "name": "Управление командой", "slug": "team-management" },
+    "description": "Покажу техники обратной связи, планирования обсуждений и подходы к конструктивному диалогу внутри команды.",
+    "favoritesCount": 13,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-063.png",
+      "skills/skill-064.png"
+    ],
+    "author": {
+      "id": 36,
+      "name": "Артём",
+      "avatar": "avatars/avatar-032.jpg",
+      "birthDate": "02-07-1990",
+      "gender": "мужской",
+      "bio": "Работаю тимлидом 4 года, помогал строить команды в проектах от 5 до 40 человек.",
+      "city": { "id": 1, "slug": "moscow", "name": "Москва" },
+      "learnSubcategories": [
+        { "id": 25, "categoryId": 4, "name": "Музыка и звук", "slug": "music-sound" },
+        { "id": 33, "categoryId": 5, "name": "Осознанность", "slug": "mindfulness" }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "title": "Испанский для путешествий",
+    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages" },
+    "subcategory": { "id": 13, "categoryId": 3, "name": "Испанский", "slug": "spanish" },
+    "description": "Выучим ключевые фразы для поездок:как заказать еду, попросить помощь, объяснить маршрут или решить бытовые вопросы.",
+    "favoritesCount": 22,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-065.png"
+    ],
+    "author": {
+      "id": 37,
+      "name": "София",
+      "avatar": "avatars/avatar-033.jpg",
+      "birthDate": "28-02-1998",
+      "gender": "женский",
+      "bio": "Училась в Барселоне, обожаю испанскую культуру и язык. Помогаю учить быстро и без зубрёжки.",
+      "city": { "id": 13, "slug": "krasnodar", "name": "Краснодар" },
+      "learnSubcategories": [
+        { "id": 20, "categoryId": 2, "name": "Ремонт", "slug": "repair" }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "title": "Основы скетчинга маркерами",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 21, "categoryId": 4, "name": "Рисование", "slug": "drawing" },
+    "description": "Научу рисовать быстрые живые скетчи: предметы, еду, людей. Объясняю композицию и работу с цветом.",
+    "favoritesCount": 16,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-066.png"
+    ],
+    "author": {
+      "id": 38,
+      "name": "Кира",
+      "avatar": "avatars/avatar-034.jpg",
+      "birthDate": "11-11-1995",
+      "gender": "женский",
+      "bio": "Иллюстратор и графический дизайнер. Люблю работать в стилизованной манере и учить этому других.",
+      "city": { "id": 2, "slug": "saint-petersburg", "name": "Санкт-Петербург" },
+      "learnSubcategories": [
+        { "id": 31, "categoryId": 5, "name": "Йога и медитация", "slug": "yoga-meditation" }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "title": "Постановка речи",
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "subcategory": { "id": 32, "categoryId": 6, "name": "Ораторское мастерство", "slug": "public-speaking" },
+    "description": "Помогу сделать речь выразительной, убедительной и свободной. Работаем с дыханием, дикцией и подачей.",
+    "favoritesCount": 29,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-061.png",
+      "skills/skill-067.png",
+      "skills/skill-068.png"
+    ],
+    "author": {
+      "id": 39,
+      "name": "Максим",
+      "avatar": "avatars/avatar-035.jpg",
+      "birthDate": "30-05-1991",
+      "gender": "мужской",
+      "bio": "Работаю тренером по речи, помогаю выступать уверенно и без волнения.",
+      "city": { "id": 8, "slug": "samara", "name": "Самара" },
+      "learnSubcategories": [
+        { "id": 22, "categoryId": 4, "name": "Фотография", "slug": "photography" }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "title": "Хранение вещей и организация дома",
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "subcategory": { "id": 19, "categoryId": 2, "name": "Хранение вещей", "slug": "storage" },
+    "description": "Подскажу системы хранения, разберём зоны дома, научу постепенно избавляться от хаоса и поддерживать порядок.",
+    "favoritesCount": 24,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-069.png",
+      "skills/skill-070.png"
+    ],
+    "author": {
+      "id": 40,
+      "name": "Анастасия",
+      "avatar": "avatars/avatar-036.jpg",
+      "birthDate": "06-09-1994",
+      "gender": "женский",
+      "bio": "Организатор пространства. Уверена, что порядок дома — это порядок в голове.",
+      "city": { "id": 17, "slug": "ulyanovsk", "name": "Ульяновск" },
+      "learnSubcategories": [
+        { "id": 14, "categoryId": 3, "name": "Японский", "slug": "japanese" }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "title": "Навыки скорочтения",
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "subcategory": { "id": 29, "categoryId": 6, "name": "Скорочтение", "slug": "speed-reading" },
+    "description": "Научу читать быстрее, сохраняя понимание текста. Применяем техники внимания и расширения поля зрения.",
+    "favoritesCount": 12,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-071.png"
+    ],
+    "author": {
+      "id": 41,
+      "name": "Николай",
+      "avatar": "avatars/avatar-037.jpg",
+      "birthDate": "17-03-1993",
+      "gender": "мужской",
+      "bio": "Преподаю скорость чтения 5 лет. Работаю как со школьниками, так и со взрослыми.",
+      "city": { "id": 4, "slug": "yekaterinburg", "name": "Екатеринбург" },
+      "learnSubcategories": [
+        { "id": 23, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "title": "Ментальное здоровье: первые шаги",
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "subcategory": { "id": 34, "categoryId": 5, "name": "Ментальное здоровье", "slug": "mental-health" },
+    "description": "Поделюсь практиками снижения тревожности, техниками дыхания и способами возвращать концентрацию.",
+    "favoritesCount": 26,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-072.png"
+    ],
+    "author": {
+      "id": 42,
+      "name": "Ольга",
+      "avatar": "avatars/avatar-038.jpg",
+      "birthDate": "09-01-1992",
+      "gender": "женский",
+      "bio": "Сертифицированный коуч. Помогаю формировать устойчивые привычки заботы о себе.",
+      "city": { "id": 16, "slug": "vladivostok", "name": "Владивосток" },
+      "learnSubcategories": [
+        { "id": 27, "categoryId": 4, "name": "Креативное письмо", "slug": "creative-writing" },
+        { "id": 32, "categoryId": 6, "name": "Ораторское мастерство", "slug": "public-speaking" }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "title": "Базовая аэробика дома",
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "subcategory": { "id": 36, "categoryId": 5, "name": "Физические тренировки", "slug": "physical-training" },
+    "description": "Простые аэробные тренировки для поддержания энергии, выносливости и настроения. Подходит новичкам.",
+    "favoritesCount": 19,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-073.png",
+      "skills/skill-074.png",
+      "skills/skill-075.png"
+    ],
+    "author": {
+      "id": 43,
+      "name": "Виктор",
+      "avatar": "avatars/avatar-039.jpg",
+      "birthDate": "21-04-1989",
+      "gender": "мужской",
+      "bio": "Фитнес-тренер. Учусь объяснять упражнения так, чтобы получилось у каждого.",
+      "city": { "id": 15, "slug": "perm", "name": "Пермь" },
+      "learnSubcategories": [
+        { "id": 13, "categoryId": 3, "name": "Испанский", "slug": "spanish" }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "title": "Медитация для концентрации",
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "subcategory": { "id": 31, "categoryId": 5, "name": "Йога и медитация", "slug": "yoga-meditation" },
+    "description": "Научу простой медитации, которая помогает удерживать внимание, снижать внутренний шум и улучшать состояние перед учёбой или работой.",
+    "favoritesCount": 33,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-076.png"
+    ],
+    "author": {
+      "id": 44,
+      "name": "Аделина",
+      "avatar": "avatars/avatar-040.jpg",
+      "birthDate": "01-02-1996",
+      "gender": "женский",
+      "bio": "Практикую медитацию 7 лет. Помогаю людям находить спокойствие в насыщенных буднях.",
+      "city": { "id": 18, "slug": "tyumen", "name": "Тюмень" },
+      "learnSubcategories": [
+        { "id": 26, "categoryId": 4, "name": "Креативное письмо", "slug": "creative-writing" }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "title": "Маркетинг личного бренда",
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "subcategory": { "id": 3, "categoryId": 1, "name": "Личный бренд", "slug": "personal-branding" },
+    "description": "Помогу сформировать личный бренд под цели: трудоустройство, продвижение услуг, создание экспертного образа.",
+    "favoritesCount": 21,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-077.png"
+    ],
+    "author": {
+      "id": 45,
+      "name": "Валерия",
+      "avatar": "avatars/avatar-041.jpg",
+      "birthDate": "12-06-1994",
+      "gender": "женский",
+      "bio": "Маркетолог, работаю с экспертами и предпринимателями. Увлекаюсь сторителлингом и визуальной айдентикой.",
+      "city": { "id": 10, "slug": "rostov-on-don", "name": "Ростов-на-Дону" },
+      "learnSubcategories": [
+        { "id": 28, "categoryId": 6, "name": "Навыки преподавания", "slug": "teaching-skills" },
+        { "id": 36, "categoryId": 6, "name": "Йога и медитация", "slug": "yoga-meditation" }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "title": "Техника осознанного дыхания",
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "subcategory": { "id": 34, "categoryId": 5, "name": "Ментальное здоровье", "slug": "mental-health" },
+    "description": "Покажу дыхательные упражнения для снятия стресса, улучшения сна и концентрации внимания.",
+    "favoritesCount": 30,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-078.png"
+    ],
+    "author": {
+      "id": 46,
+      "name": "Григорий",
+      "avatar": "avatars/avatar-042.jpg",
+      "birthDate": "03-03-1990",
+      "gender": "мужской",
+      "bio": "Инструктор по дыхательным техникам. Сочетаю практики медитации, осознанности и физиологии.",
+      "city": { "id": 11, "slug": "ufa", "name": "Уфа" },
+      "learnSubcategories": [
+        { "id": 21, "categoryId": 4, "name": "Рисование", "slug": "drawing" }
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "title": "Введение в видеомонтаж",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 23, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" },
+    "description": "Научу собирать ролики: монтаж, переходы, звук, работа с ритмом и структурами видео.",
+    "favoritesCount": 27,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-079.png",
+      "skills/skill-080.png",
+      "skills/skill-081.png",
+      "skills/skill-082.png"
+    ],
+    "author": {
+      "id": 47,
+      "name": "Станислав",
+      "avatar": "avatars/avatar-043.jpg",
+      "birthDate": "22-10-1992",
+      "gender": "мужской",
+      "bio": "Монтажёр YouTube-проектов и коротких форматов. Преподаю монтаж новичкам и блогерам.",
+      "city": { "id": 5, "slug": "kazan", "name": "Казань" },
+      "learnSubcategories": [
+        { "id": 23, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" },
+        { "id": 27, "categoryId": 4, "name": "Креативное письмо", "slug": "creative-writing" },
+        { "id": 29, "categoryId": 6, "name": "Скорочтение", "slug": "speed-reading" }
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "title": "Уверенная коммуникация",
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "subcategory": { "id": 32, "categoryId": 6, "name": "Ораторское мастерство", "slug": "public-speaking" },
+    "description": "Разберём голос, позу, дыхание и структуру мыслей. Научу говорить ясно и уверенно в любой ситуации.",
+    "favoritesCount": 25,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-083.png"
+    ],
+    "author": {
+      "id": 48,
+      "name": "Лидия",
+      "avatar": "avatars/avatar-044.jpg",
+      "birthDate": "19-01-1988",
+      "gender": "женский",
+      "bio": "Тренер по коммуникациям. Уверена, что каждый может говорить убедительно.",
+      "city": { "id": 14, "slug": "voronezh", "name": "Воронеж" },
+      "learnSubcategories": [
+        { "id": 36, "categoryId": 5, "name": "Физические тренировки", "slug": "physical-training" }
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "title": "Креативное письмо для блогеров",
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "subcategory": { "id": 26, "categoryId": 4, "name": "Креативное письмо", "slug": "creative-writing" },
+    "description": "Научу писать живые тексты, раскрывать голос автора и работать со структурой и ритмом текста.",
+    "favoritesCount": 34,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-084.png",
+      "skills/skill-085.png"
+    ],
+    "author": {
+      "id": 49,
+      "name": "Елена",
+      "avatar": "avatars/avatar-045.jpg",
+      "birthDate": "14-04-1997",
+      "gender": "женский",
+      "bio": "Автор и копирайтер с опытом 6 лет. Работаю с личными блогами и проектами.",
+      "city": { "id": 12, "slug": "krasnoyarsk", "name": "Красноярск" },
+      "learnSubcategories": [
+        { "id": 12, "categoryId": 3, "name": "Немецкий", "slug": "german" }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "title": "Питание для энергии",
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "subcategory": { "id": 37, "categoryId": 5, "name": "Питание и ЗОЖ", "slug": "nutrition-healthy-lifestyle" },
+    "description": "Помогу выстроить питание под образ жизни: баланс БЖУ, простые правила, продукты для энергии.",
+    "favoritesCount": 18,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-086.png"
+    ],
+    "author": {
+      "id": 50,
+      "name": "Дарья",
+      "avatar": "avatars/avatar-046.jpg",
+      "birthDate": "25-06-1995",
+      "gender": "женский",
+      "bio": "Специалист по питанию. Верю в мягкие изменения и заботу о теле без жёстких ограничений.",
+      "city": { "id": 9, "slug": "omsk", "name": "Омск" },
+      "learnSubcategories": [
+        { "id": 6, "categoryId": 1, "name": "Тайм-менеджмент", "slug": "time-management" },
+        { "id": 22, "categoryId": 4, "name": "Фотография", "slug": "photography" }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "title": "Структурированное обучение",
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "subcategory": { "id": 27, "categoryId": 6, "name": "Когнитивные техники", "slug": "cognitive-techniques" },
+    "description": "Научу правильно организовывать процесс обучения: цели, повторение, интервалы, память, концентрация.",
+    "favoritesCount": 22,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-087.png"
+    ],
+    "author": {
+      "id": 51,
+      "name": "Евгений",
+      "avatar": "avatars/avatar-047.jpg",
+      "birthDate": "07-07-1992",
+      "gender": "мужской",
+      "bio": "Изучаю когнитивную науку и обучаю людей учиться быстрее и осознаннее.",
+      "city": { "id": 7, "slug": "chelyabinsk", "name": "Челябинск" },
+      "learnSubcategories": [
+        { "id": 30, "categoryId": 6, "name": "Коучинг", "slug": "coaching" },
+        { "id": 36, "categoryId": 6, "name": "Йога и медитация", "slug": "yoga-meditation" }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "title": "Кулинария для начинающих",
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "subcategory": { "id": 17, "categoryId": 2, "name": "Приготовление еды", "slug": "cooking" },
+    "description": "Покажу техники, которые дают вкусные блюда без сложностей: базовые соусы, жарка, тушение, запекание.",
+    "favoritesCount": 28,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-088.png",
+      "skills/skill-089.png"
+    ],
+    "author": {
+      "id": 52,
+      "name": "Ирина",
+      "avatar": "avatars/avatar-048.jpg",
+      "birthDate": "18-12-1990",
+      "gender": "женский",
+      "bio": "Готовлю всю жизнь, веду блог с простыми рецептами и обучаю начинающих кулинаров.",
+      "city": { "id": 6, "slug": "nizhny-novgorod", "name": "Нижний Новгород" },
+      "learnSubcategories": [
+        { "id": 31, "categoryId": 5, "name": "Йога и медитация", "slug": "yoga-meditation" }
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "title": "Английский для IT",
+    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages" },
+    "subcategory": { "id": 11, "categoryId": 3, "name": "Английский язык", "slug": "english" },
+    "description": "Выучим лексику, нужную разработчикам и аналитикам: созвоны, задачи, документация, презентации.",
+    "favoritesCount": 37,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-090.png",
+      "skills/skill-091.png"
+    ],
+    "author": {
+      "id": 53,
+      "name": "Тимофей",
+      "avatar": "avatars/avatar-049.jpg",
+      "birthDate": "10-05-1994",
+      "gender": "мужской",
+      "bio": "IT-специалист со стажем, преподаю английский для профессиональных задач.",
+      "city": { "id": 1, "slug": "moscow", "name": "Москва" },
+      "learnSubcategories": [
+        { "id": 6, "categoryId": 1, "name": "Тайм-менеджмент", "slug": "time-management" },
+        { "id": 21, "categoryId": 4, "name": "Рисование", "slug": "drawing" },
+        { "id": 23, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" }
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "title": "Мягкая мебель: базовый ремонт",
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "subcategory": { "id": 20, "categoryId": 2, "name": "Ремонт", "slug": "repair" },
+    "description": "Научу ремонтировать диваны, стулья и кресла: перетяжка, замена ткани, устранение скрипов и провалов.",
+    "favoritesCount": 15,
+    "isFavorited": false,
+    "images": [
+      "skills/skill-092.png",
+      "skills/skill-093.png"
+    ],
+    "author": {
+      "id": 54,
+      "name": "Руслан",
+      "avatar": "avatars/avatar-050.jpg",
+      "birthDate": "09-09-1987",
+      "gender": "мужской",
+      "bio": "Мастер по ремонту мебели, работаю в сфере 12 лет. Люблю делиться практическими лайфхаками.",
+      "city": { "id": 19, "slug": "tolyatti", "name": "Тольятти" },
+      "learnSubcategories": [
+        { "id": 16, "categoryId": 3, "name": "Китайский", "slug": "chinese" },
+        { "id": 36, "categoryId": 6, "name": "Йога и медитация", "slug": "yoga-meditation" }
       ]
     }
   }
