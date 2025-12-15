@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Игра на барабанах",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 25, "categoryId": 4, "name": "Музыка и звук", "slug": "music-sound" },
     "description": "Привет! Я играю на барабанах уже больше 10 лет — от репетиций в гараже до выступлений на сцене с живыми группами. Научу основам техники (и как не отбить себе пальцы), играть любимые ритмы и разбирать песни, импровизировать и звучать уверенно даже без паритуры",
     "favoritesCount": 12,
@@ -30,7 +30,7 @@
   {
     "id": 2,
     "title": "Разговорный английский для путешествий",
-    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages", "color": "#ebe5c5" },
     "subcategory": { "id": 9, "categoryId": 2, "name": "Английский", "slug": "english" },
     "description": "Помогу снять языковой барьер и начать свободно говорить в поездках: аэропорт, отель, кафе, small talk. Много практики, минимум грамматики.",
     "favoritesCount": 25,
@@ -57,7 +57,7 @@
   {
     "id": 3,
     "title": "Бизнес-план для первого проекта",
-    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career", "color": "#eee7f7" },
     "subcategory": { "id": 8, "categoryId": 1, "name": "Предпринимательство", "slug": "entrepreneurship" },
     "description": "Разберём вашу идею и вместе составим понятный бизнес-план: целевая аудитория, финансовая модель, риски и первые шаги.",
     "favoritesCount": 18,
@@ -83,7 +83,7 @@
   {
     "id": 4,
     "title": "Английский для собеседований",
-    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages", "color": "#ebe5c5" },
     "subcategory": { "id": 9, "categoryId": 2, "name": "Английский", "slug": "english" },
     "description": "Подготовлю к собеседованиям на английском: пройдём типовые вопросы, расскажем о вашем опыте и отрепетируем ответы.",
     "favoritesCount": 9,
@@ -109,7 +109,7 @@
   {
     "id": 5,
     "title": "Английский для начинающих с нуля",
-    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages", "color": "#ebe5c5" },
     "subcategory": { "id": 9, "categoryId": 2, "name": "Английский", "slug": "english" },
     "description": "Если вы всегда откладывали английский «на потом», начнём с алфавита и простых фраз и постепенно перейдём к уверенным диалогам.",
     "favoritesCount": 7,
@@ -134,7 +134,7 @@
   {
     "id": 6,
     "title": "Английский для путешествий и блога",
-    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages", "color": "#ebe5c5" },
     "subcategory": { "id": 9, "categoryId": 2, "name": "Английский", "slug": "english" },
     "description": "Научу уверенно общаться в поездках и писать простые посты в блог на английском — без зазубривания правил.",
     "favoritesCount": 11,
@@ -160,7 +160,7 @@
   {
     "id": 7,
     "title": "Домашняя выпечка без сложных рецептов",
-    "category": { "id": 3, "name": "Дом и уют", "slug": "home-comfort" },
+    "category": { "id": 3, "name": "Дом и уют", "slug": "home-comfort", "color": "#f7ebe5" },
     "subcategory": { "id": 18, "categoryId": 3, "name": "Приготовление еды", "slug": "cooking" },
     "description": "Покажу, как готовить вкусную домашнюю выпечку без редких ингредиентов и сложных техник. Пироги, печенье, булочки — всё получится.",
     "favoritesCount": 20,
@@ -186,7 +186,7 @@
   {
     "id": 8,
     "title": "Фотография на смартфон",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 23, "categoryId": 4, "name": "Фотография", "slug": "photography" },
     "description": "Научу видеть кадр, работать со светом и композицией, чтобы ваши фото на телефон выглядели как из журнала.",
     "favoritesCount": 32,
@@ -213,7 +213,7 @@
   {
     "id": 9,
     "title": "Основы йоги для офиса",
-    "category": { "id": 6, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "category": { "id": 6, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle", "color": "#e9f7e7" },
     "subcategory": { "id": 36, "categoryId": 6, "name": "Йога и медитация", "slug": "yoga-meditation" },
     "description": "Покажу простые упражнения и короткие практики, которые помогут снять напряжение после рабочего дня и почувствовать тело.",
     "favoritesCount": 14,
@@ -239,7 +239,7 @@
   {
     "id": 10,
     "title": "Организация дома по методу «меньше — лучше»",
-    "category": { "id": 3, "name": "Дом и уют", "slug": "home-comfort" },
+    "category": { "id": 3, "name": "Дом и уют", "slug": "home-comfort", "color": "#f7ebe5" },
     "subcategory": { "id": 16, "categoryId": 3, "name": "Уборка и организация", "slug": "cleaning-organizing" },
     "description": "Помогу разобрать завалы вещей, организовать хранение и создать дома пространство, в котором легко дышится.",
     "favoritesCount": 21,
@@ -265,7 +265,7 @@
   {
     "id": 11,
     "title": "Управление командой для начинающих лидеров",
-    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career", "color": "#eee7f7" },
     "subcategory": { "id": 1, "categoryId": 1, "name": "Управление командой", "slug": "team-management" },
     "description": "Разберём базовые подходы к управлению людьми: постановка задач, обратная связь, мотивация и работа с конфликтами. Подойдёт тем, кто впервые стал тимлидом или руководителем проекта.",
     "favoritesCount": 16,
@@ -291,7 +291,7 @@
   {
     "id": 12,
     "title": "Маркетинг для личного бренда",
-    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career", "color": "#eee7f7" },
     "subcategory": { "id": 4, "categoryId": 1, "name": "Личный бренд", "slug": "personal-brand" },
     "description": "Помогу сформулировать вашу экспертность, оформить соцсети и выстроить понятную стратегию продвижения личного бренда без выгорания.",
     "favoritesCount": 19,
@@ -317,7 +317,7 @@
   {
     "id": 13,
     "title": "Рисование для тех, кто \"не умеет\"",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 22, "categoryId": 4, "name": "Рисование и иллюстрация", "slug": "drawing-illustration" },
     "description": "Покажу простые техники, с которых можно начать рисовать даже без опыта. Разберёмся с линией, тоном и цветом, попробуем скетчи и небольшие иллюстрации.",
     "favoritesCount": 27,
@@ -346,7 +346,7 @@
   {
     "id": 14,
     "title": "Подготовка к IELTS: говорение и письмо",
-    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages" },
+    "category": { "id": 2, "name": "Иностранные языки", "slug": "languages", "color": "#ebe5c5" },
     "subcategory": { "id": 15, "categoryId": 2, "name": "Подготовка к экзаменам (IELTS, TOEFL)", "slug": "exam-prep-ielts-toefl" },
     "description": "Разберём формат IELTS, отработаем Part 2 и 3 в Speaking, а также эссе для Writing. Дам шаблоны и обратную связь по вашим ответам.",
     "favoritesCount": 22,
@@ -372,7 +372,7 @@
   {
     "id": 15,
     "title": "Домашние финансы без боли",
-    "category": { "id": 3, "name": "Дом и уют", "slug": "home-comfort" },
+    "category": { "id": 3, "name": "Дом и уют", "slug": "home-comfort", "color": "#f7ebe5" },
     "subcategory": { "id": 17, "categoryId": 3, "name": "Домашние финансы", "slug": "home-finance" },
     "description": "Научимся вести учёт доходов и расходов, планировать бюджет, создавать «подушки безопасности» и копить на цели, не лишая себя радостей.",
     "favoritesCount": 13,
@@ -398,7 +398,7 @@
   {
     "id": 16,
     "title": "Скорочтение и работа с текстом",
-    "category": { "id": 5, "name": "Образование и развитие", "slug": "education-development" },
+    "category": { "id": 5, "name": "Образование и развитие", "slug": "education-development", "color": "#e7f2f6" },
     "subcategory": { "id": 33, "categoryId": 5, "name": "Скорочтение", "slug": "speed-reading" },
     "description": "Покажу техники скорочтения и приёмы, которые помогают лучше запоминать прочитанное, а не просто «проглатывать» книги.",
     "favoritesCount": 17,
@@ -424,7 +424,7 @@
   {
     "id": 17,
     "title": "Осознанная медитация для начинающих",
-    "category": { "id": 6, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "category": { "id": 6, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle", "color": "#e9f7e7" },
     "subcategory": { "id": 39, "categoryId": 6, "name": "Осознанность", "slug": "mindfulness" },
     "description": "Поговорим о том, что такое медитация без мистики, попробуем короткие практики на дыхание и наблюдение, разберёмся, как встроить их в повседневную жизнь.",
     "favoritesCount": 24,
@@ -449,7 +449,7 @@
   {
     "id": 18,
     "title": "Видео-монтаж для соцсетей",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 24, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" },
     "description": "Освоим базовый монтаж роликов для Reels, Shorts и сторис: склейки, работа с музыкой, простые переходы и текст.",
     "favoritesCount": 29,
@@ -477,7 +477,7 @@
   {
     "id": 19,
     "title": "Актёрское мастерство для уверенности",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 26, "categoryId": 4, "name": "Актёрское мастерство", "slug": "acting" },
     "description": "Через простые актёрские упражнения поработаем с голосом, пластикой и раскрепощением. Поможет комфортнее чувствовать себя на сцене и в публичных выступлениях.",
     "favoritesCount": 15,
@@ -503,7 +503,7 @@
   {
     "id": 20,
     "title": "Проектное управление для личных задач",
-    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career", "color": "#eee7f7" },
     "subcategory": { "id": 7, "categoryId": 1, "name": "Проектное управление", "slug": "project-management" },
     "description": "Покажу, как применять инструменты проектного управления к своим личным и учебным задачам: доски, спринты, приоритизацию и планирование.",
     "favoritesCount": 10,
@@ -529,7 +529,7 @@
   {
     "id": 21,
     "title": "Разговорный английский для работы",
-    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages" },
+    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages", "color": "#f7ebe5" },
     "subcategory": { "id": 12, "categoryId": 3, "name": "Английский", "slug": "english" },
     "description": "Помогаю заговорить на английском свободнее. Практикуем реальные рабочие ситуации: созвоны, презентации, small talk, переписку.",
     "favoritesCount": 18,
@@ -555,7 +555,7 @@
   {
     "id": 22,
     "title": "Основы фотографии на смартфон",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 22, "categoryId": 4, "name": "Фотография", "slug": "photography" },
     "description": "Научу создавать эстетичные снимки на обычный смартфон. Разберём композицию, свет, ракурсы и быстрый мобильный монтаж.",
     "favoritesCount": 27,
@@ -580,7 +580,7 @@
   {
     "id": 23,
     "title": "Постановка целей и планирование недели",
-    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development", "color": "#e9f7e7" },
     "subcategory": { "id": 30, "categoryId": 6, "name": "Навыки обучения", "slug": "learning-skills" },
     "description": "Помогу научиться ставить реалистичные цели, фокусироваться на важном и планировать неделю так, чтобы всё успевать без перегрузов.",
     "favoritesCount": 9,
@@ -604,7 +604,7 @@
   {
     "id": 24,
     "title": "Основы видеомонтажа для соцсетей",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 23, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" },
     "description": "Научу быстро монтировать ролики под Reels и TikTok: склейки, переходы, звук, цвет и ритм.",
     "favoritesCount": 15,
@@ -628,7 +628,7 @@
   {
     "id": 25,
     "title": "Психологическое письмо",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 26, "categoryId": 4, "name": "Креативное письмо", "slug": "creative-writing" },
     "description": "Через письмо учимся понимать свои чувства, структурировать мысли и выражать себя без страха.",
     "favoritesCount": 32,
@@ -653,7 +653,7 @@
   {
     "id": 26,
     "title": "Базовая йога для снятия стресса",
-    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle", "color": "#e7f2f6" },
     "subcategory": { "id": 31, "categoryId": 5, "name": "Йога и медитация", "slug": "yoga-meditation" },
     "description": "Мягкая йога для укрепления тела и расслабления. Идеально для тех, кто много сидит и хочет вернуть ощущение легкости.",
     "favoritesCount": 21,
@@ -682,7 +682,7 @@
   {
     "id": 27,
     "title": "Финансовая грамотность для новичков",
-    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career", "color": "#eee7f7" },
     "subcategory": { "id": 4, "categoryId": 1, "name": "Финансовая грамотность", "slug": "financial-literacy" },
     "description": "Разберёмся, как вести бюджет, копить, формировать подушку безопасности и не тонуть в расходах.",
     "favoritesCount": 30,
@@ -706,7 +706,7 @@
   {
     "id": 28,
     "title": "Ремонт техники своими руками",
-    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort", "color": "#ebe5c5" },
     "subcategory": { "id": 20, "categoryId": 2, "name": "Ремонт", "slug": "repair" },
     "description": "Научу диагностировать и чинить бытовую технику: кофемолки, чайники, наушники, мелкие гаджеты.",
     "favoritesCount": 14,
@@ -732,7 +732,7 @@
   {
     "id": 29,
     "title": "Иллюстрация для начинающих",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 21, "categoryId": 4, "name": "Рисование", "slug": "drawing" },
     "description": "Расскажу основы рисунка: форма, композиция, цвет. Подходит для тех, кто всегда хотел попробовать, но не знал, с чего начать.",
     "favoritesCount": 35,
@@ -757,7 +757,7 @@
   {
     "id": 30,
     "title": "Готовим блюда за 15 минут",
-    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort", "color": "#ebe5c5" },
     "subcategory": { "id": 17, "categoryId": 2, "name": "Приготовление еды", "slug": "cooking" },
     "description": "Научу готовить быстрые, вкусные и полезные блюда из простых ингредиентов — без хлопот и сложной техники.",
     "favoritesCount": 40,
@@ -783,7 +783,7 @@
   {
     "id": 31,
     "title": "Китайский язык для начинающих",
-    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages" },
+    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages", "color": "#f7ebe5" },
     "subcategory": { "id": 16, "categoryId": 3, "name": "Китайский", "slug": "chinese" },
     "description": "Научу базовой фонетике, тонам, простым фразам и бытовому общению. Доступно объясняю логику языка.",
     "favoritesCount": 17,
@@ -809,7 +809,7 @@
   {
     "id": 32,
     "title": "Эффективное командное общение",
-    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career", "color": "#eee7f7" },
     "subcategory": { "id": 1, "categoryId": 1, "name": "Управление командой", "slug": "team-management" },
     "description": "Покажу техники обратной связи, планирования обсуждений и подходы к конструктивному диалогу внутри команды.",
     "favoritesCount": 13,
@@ -835,7 +835,7 @@
   {
     "id": 33,
     "title": "Испанский для путешествий",
-    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages" },
+    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages", "color": "#f7ebe5" },
     "subcategory": { "id": 13, "categoryId": 3, "name": "Испанский", "slug": "spanish" },
     "description": "Выучим ключевые фразы для поездок:как заказать еду, попросить помощь, объяснить маршрут или решить бытовые вопросы.",
     "favoritesCount": 22,
@@ -859,7 +859,7 @@
   {
     "id": 34,
     "title": "Основы скетчинга маркерами",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 21, "categoryId": 4, "name": "Рисование", "slug": "drawing" },
     "description": "Научу рисовать быстрые живые скетчи: предметы, еду, людей. Объясняю композицию и работу с цветом.",
     "favoritesCount": 16,
@@ -883,7 +883,7 @@
   {
     "id": 35,
     "title": "Постановка речи",
-    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development", "color": "#e9f7e7" },
     "subcategory": { "id": 32, "categoryId": 6, "name": "Ораторское мастерство", "slug": "public-speaking" },
     "description": "Помогу сделать речь выразительной, убедительной и свободной. Работаем с дыханием, дикцией и подачей.",
     "favoritesCount": 29,
@@ -907,7 +907,7 @@
   {
     "id": 36,
     "title": "Хранение вещей и организация дома",
-    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort", "color": "#ebe5c5" },
     "subcategory": { "id": 19, "categoryId": 2, "name": "Хранение вещей", "slug": "storage" },
     "description": "Подскажу системы хранения, разберём зоны дома, научу постепенно избавляться от хаоса и поддерживать порядок.",
     "favoritesCount": 24,
@@ -934,7 +934,7 @@
   {
     "id": 37,
     "title": "Навыки скорочтения",
-    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development", "color": "#e9f7e7" },
     "subcategory": { "id": 29, "categoryId": 6, "name": "Скорочтение", "slug": "speed-reading" },
     "description": "Научу читать быстрее, сохраняя понимание текста. Применяем техники внимания и расширения поля зрения.",
     "favoritesCount": 12,
@@ -958,7 +958,7 @@
   {
     "id": 38,
     "title": "Ментальное здоровье: первые шаги",
-    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle", "color": "#e7f2f6" },
     "subcategory": { "id": 34, "categoryId": 5, "name": "Ментальное здоровье", "slug": "mental-health" },
     "description": "Поделюсь практиками снижения тревожности, техниками дыхания и способами возвращать концентрацию.",
     "favoritesCount": 26,
@@ -983,7 +983,7 @@
   {
     "id": 39,
     "title": "Базовая аэробика дома",
-    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle", "color": "#e7f2f6" },
     "subcategory": { "id": 36, "categoryId": 5, "name": "Физические тренировки", "slug": "physical-training" },
     "description": "Простые аэробные тренировки для поддержания энергии, выносливости и настроения. Подходит новичкам.",
     "favoritesCount": 19,
@@ -1009,7 +1009,7 @@
   {
     "id": 40,
     "title": "Медитация для концентрации",
-    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle", "color": "#e7f2f6" },
     "subcategory": { "id": 31, "categoryId": 5, "name": "Йога и медитация", "slug": "yoga-meditation" },
     "description": "Научу простой медитации, которая помогает удерживать внимание, снижать внутренний шум и улучшать состояние перед учёбой или работой.",
     "favoritesCount": 33,
@@ -1033,7 +1033,7 @@
   {
     "id": 41,
     "title": "Маркетинг личного бренда",
-    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career" },
+    "category": { "id": 1, "name": "Бизнес и карьера", "slug": "business-career", "color": "#eee7f7" },
     "subcategory": { "id": 3, "categoryId": 1, "name": "Личный бренд", "slug": "personal-branding" },
     "description": "Помогу сформировать личный бренд под цели: трудоустройство, продвижение услуг, создание экспертного образа.",
     "favoritesCount": 21,
@@ -1058,7 +1058,7 @@
   {
     "id": 42,
     "title": "Техника осознанного дыхания",
-    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle", "color": "#e7f2f6" },
     "subcategory": { "id": 34, "categoryId": 5, "name": "Ментальное здоровье", "slug": "mental-health" },
     "description": "Покажу дыхательные упражнения для снятия стресса, улучшения сна и концентрации внимания.",
     "favoritesCount": 30,
@@ -1082,7 +1082,7 @@
   {
     "id": 43,
     "title": "Введение в видеомонтаж",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 23, "categoryId": 4, "name": "Видеомонтаж", "slug": "video-editing" },
     "description": "Научу собирать ролики: монтаж, переходы, звук, работа с ритмом и структурами видео.",
     "favoritesCount": 27,
@@ -1111,7 +1111,7 @@
   {
     "id": 44,
     "title": "Уверенная коммуникация",
-    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development", "color": "#e9f7e7" },
     "subcategory": { "id": 32, "categoryId": 6, "name": "Ораторское мастерство", "slug": "public-speaking" },
     "description": "Разберём голос, позу, дыхание и структуру мыслей. Научу говорить ясно и уверенно в любой ситуации.",
     "favoritesCount": 25,
@@ -1135,7 +1135,7 @@
   {
     "id": 45,
     "title": "Креативное письмо для блогеров",
-    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity" },
+    "category": { "id": 4, "name": "Творчество и искусство", "slug": "arts-creativity", "color": "#f7e7f2" },
     "subcategory": { "id": 26, "categoryId": 4, "name": "Креативное письмо", "slug": "creative-writing" },
     "description": "Научу писать живые тексты, раскрывать голос автора и работать со структурой и ритмом текста.",
     "favoritesCount": 34,
@@ -1160,7 +1160,7 @@
   {
     "id": 46,
     "title": "Питание для энергии",
-    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle" },
+    "category": { "id": 5, "name": "Здоровье и лайфстайл", "slug": "health-lifestyle", "color": "#e7f2f6" },
     "subcategory": { "id": 37, "categoryId": 5, "name": "Питание и ЗОЖ", "slug": "nutrition-healthy-lifestyle" },
     "description": "Помогу выстроить питание под образ жизни: баланс БЖУ, простые правила, продукты для энергии.",
     "favoritesCount": 18,
@@ -1185,7 +1185,7 @@
   {
     "id": 47,
     "title": "Структурированное обучение",
-    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development" },
+    "category": { "id": 6, "name": "Образование и развитие", "slug": "education-development", "color": "#e9f7e7" },
     "subcategory": { "id": 27, "categoryId": 6, "name": "Когнитивные техники", "slug": "cognitive-techniques" },
     "description": "Научу правильно организовывать процесс обучения: цели, повторение, интервалы, память, концентрация.",
     "favoritesCount": 22,
@@ -1210,7 +1210,7 @@
   {
     "id": 48,
     "title": "Кулинария для начинающих",
-    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort", "color": "#ebe5c5" },
     "subcategory": { "id": 17, "categoryId": 2, "name": "Приготовление еды", "slug": "cooking" },
     "description": "Покажу техники, которые дают вкусные блюда без сложностей: базовые соусы, жарка, тушение, запекание.",
     "favoritesCount": 28,
@@ -1235,7 +1235,7 @@
   {
     "id": 49,
     "title": "Английский для IT",
-    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages" },
+    "category": { "id": 3, "name": "Иностранные языки", "slug": "foreign-languages", "color": "#f7ebe5" },
     "subcategory": { "id": 11, "categoryId": 3, "name": "Английский язык", "slug": "english" },
     "description": "Выучим лексику, нужную разработчикам и аналитикам: созвоны, задачи, документация, презентации.",
     "favoritesCount": 37,
@@ -1262,7 +1262,7 @@
   {
     "id": 50,
     "title": "Мягкая мебель: базовый ремонт",
-    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort" },
+    "category": { "id": 2, "name": "Дом и уют", "slug": "home-comfort", "color": "#ebe5c5" },
     "subcategory": { "id": 20, "categoryId": 2, "name": "Ремонт", "slug": "repair" },
     "description": "Научу ремонтировать диваны, стулья и кресла: перетяжка, замена ткани, устранение скрипов и провалов.",
     "favoritesCount": 15,
