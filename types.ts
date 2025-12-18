@@ -37,6 +37,7 @@ export type Skill = {
   description: string;
   favoritesCount: number;
   isFavorited: boolean;
+  createdAt: string; // "2025-12-10T14:22:00Z"
   images: string[];
   author: Author;
 };
