@@ -9,6 +9,7 @@ export type Subcategory = {
   categoryId: number;
   name: string;
   slug: string;
+  color: string;
 };
 
 export type Category = {
