@@ -4,6 +4,7 @@
     "name": "Бизнес и карьера",
     "slug": "business-career",
     "color": "#eee7f7",
+    "icon": "icons/briefcase.svg",
     "subcategories": [
       { "id": 1,  "categoryId": 1, "name": "Управление командой",    "slug": "team-management" },
       { "id": 2,  "categoryId": 1, "name": "Маркетинг и реклама",    "slug": "marketing-advertising" },
@@ -20,6 +21,7 @@
     "name": "Иностранные языки",
     "slug": "languages",
     "color": "#ebe5c5",
+    "icon": "icons/global.svg",
     "subcategories": [
       { "id": 9,  "categoryId": 2, "name": "Английский",                            "slug": "english" },
       { "id": 10, "categoryId": 2, "name": "Французский",                           "slug": "french" },
@@ -35,6 +37,7 @@
     "name": "Дом и уют",
     "slug": "home-comfort",
     "color": "#f7ebe5",
+    "icon": "icons/home.svg",
     "subcategories": [
       { "id": 16, "categoryId": 3, "name": "Уборка и организация", "slug": "cleaning-organizing" },
       { "id": 17, "categoryId": 3, "name": "Домашние финансы",     "slug": "home-finance" },
@@ -49,6 +52,7 @@
     "name": "Творчество и искусство",
     "slug": "arts-creativity",
     "color": "#f7e7f2",
+    "icon": "icons/palette.svg",
     "subcategories": [
       { "id": 22, "categoryId": 4, "name": "Рисование и иллюстрация", "slug": "drawing-illustration" },
       { "id": 23, "categoryId": 4, "name": "Фотография",              "slug": "photography" },
@@ -65,6 +69,7 @@
     "name": "Образование и развитие",
     "slug": "education-development",
     "color": "#e7f2f6",
+    "icon": "icons/book.svg",
     "subcategories": [
       { "id": 30, "categoryId": 5, "name": "Личностное развитие", "slug": "personal-growth" },
       { "id": 31, "categoryId": 5, "name": "Навыки обучения",     "slug": "learning-skills" },
@@ -79,6 +84,7 @@
     "name": "Здоровье и лайфстайл",
     "slug": "health-lifestyle",
     "color": "#e9f7e7",
+    "icon": "icons/lifestyle.svg",
     "subcategories": [
       { "id": 36, "categoryId": 6, "name": "Йога и медитация",      "slug": "yoga-meditation" },
       { "id": 37, "categoryId": 6, "name": "Питание и ЗОЖ",         "slug": "nutrition-healthy-lifestyle" },
